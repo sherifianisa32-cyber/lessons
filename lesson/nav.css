@@ -1,0 +1,86 @@
+
+/*    ------   Nav Bar Lesson Part  --------    */
+body{
+	margin: 0px;
+}
+/* horizontal nav/menu */
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background: #333;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.active{
+	background: lightblue;
+	color: black;
+}
+nav li a:hover:not(.active){
+	background: #111;
+}
+/*Mega Menu*/
+.nav{
+	overflow: hidden;
+	background-color:#333;
+	font-family: ;
+}
+.nav a
+float left: ;
+font size: 16px;
+color:white ;
+text -align: center;
+padding:12px 16px;
+text-decoration:none;
+}
+.dropdown{
+	float: left;
+	overflow: hidden;
+}
+.dropdown button{
+	font size: 16px;
+	border: none;
+	outline:none;
+	color:white;
+	padding: 14px 16px;
+	background: inherit;
+	margin:0;
+}
+.nav a:hover, .dropdown:hover button{
+	background:#4caf50;
+}
+.dropdown-contect{
+	display: none;
+	position:absolute;
+	background: #f9f9f9;
+	width:100%;
+	left: 0;
+	 box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2) /* mrena-jasht(inset) 0pc horizontalisht 8px vertikalisht16px blur 0px largesia ngjyra z-index:1;*/
+}
+.dropdown:hover .dropdown-contect{
+	display:block;
+}
+.column{
+	float: left;
+	width:33.33%;
+	padding:10px;
+	background:#ccc;
+	height:250px;
+}
+.column a{
+	float: none;
+	color:block;
+	padding:16px;
+	text-decoration:none;
+	display: block;
+	text-align:left;
+}
