@@ -84,3 +84,16 @@ text-decoration:none;
 	display: block;
 	text-align:left;
 }
+.column a :hover{
+	background:#ddd;
+}
+/* clear floats after the columns*/
+.row:after{
+	content: ;
+	display: table;
+	clear: both;
+}
+
+ *{
+ 	box-sizing:border-box;
+ }
