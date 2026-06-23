@@ -25,3 +25,71 @@ text-align: center;
 	display:inline-block;
 	background-position:-500px -500px;
 }
+
+
+
+
+
+
+/*
+--atribute exists--
+[data-value]{
+	
+}
+--attribute has this exact value--
+[data value="foo"]{
+	
+}
+
+--atribute value contains this value somewhere in it--
+[data-vale*="foo"]{
+	
+}
+--atribute value space-separeted list somewhere--
+[data-value~="foo"]{
+	
+}
+--atribute value starts with it--
+[data-value^="foo"] {
+	
+}
+--atribute value starts with this in a dash separates list--
+[data-value|="foo"] {
+	
+}
+--atribute value ends with it--
+[data value$="foo"]{
+	
+}
+
+
+*/
+p[class]{
+	color:blue;
+}
+
+P[class*="ds"]{
+	color:green;
+
+}
+
+p[class~="ds"]{
+	color:purple;
+	
+}
+
+p[class^="par"]{
+	color: orange;
+}
+
+p[class|="ds"]{
+	color:hotpink;
+}
+
+p[class $="ds"]{
+	color:aquamarine;
+}
+
+p[class="ds"]{
+ color:red;
+}
